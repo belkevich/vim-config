@@ -13,12 +13,16 @@ VIM configuration script installs and configure next plugins:
 * [vim-markdown](https://github.com/tpope/vim-markdown)
 * [vim-rails](https://github.com/tpope/vim-rails)
 * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
+
 ---
 # Installation
 Run script `./install.sh`
+
 ---
 # Post installation
 Building Command-T plugin
 Make sure, that you using system ruby
+
 Open `~/.vim/bundle/Command-T`
+
 Run `rake make`
