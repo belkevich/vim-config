@@ -17,6 +17,9 @@ echo === Installing plugins ===
 echo
 cd ~/.vim/bundle
 git clone git://github.com/wincent/Command-T.git
+cd Command-T
+/usr/bin/rake make
+cd ..
 echo
 git clone git://github.com/Shougo/neocomplcache.git
 echo

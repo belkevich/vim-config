@@ -17,12 +17,3 @@ VIM configuration script installs and configure next plugins:
 ---
 # Installation
 Run script `./install.sh`
-
----
-# Post installation
-Building Command-T plugin
-Make sure, that you using system ruby
-
-Open `~/.vim/bundle/Command-T`
-
-Run `rake make`
