@@ -11,7 +11,6 @@ filetype plugin indent on
 
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-aut
 
 map <s-tab> <C-w><S-w>
 map <tab> <C-w><C-w>
