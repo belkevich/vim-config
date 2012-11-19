@@ -11,6 +11,7 @@ filetype plugin indent on
 
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+aut
 
 map <s-tab> <C-w><S-w>
 map <tab> <C-w><C-w>
@@ -25,8 +26,6 @@ let g:neocomplcache_enable_smart_case = 1
 let g:neocomplcache_enable_camel_case_completion = 1
 let g:neocomplcache_enable_underbar_completion = 1
 let g:neocomplcache_min_syntax_length = 1
-"let g:neocomplcache_enable_at_startup = 1
-imap <C-Space>     <Plug>(neocomplcache_snippets_expand)
-smap <C-Space>     <Plug>(neocomplcache_snippets_expand)
-inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+let g:neocomplcache_disable_auto_complete = 1
+inoremap <expr><Tab> pumvisible() ? "\<Tab>" : "\<C-n>" 
 inoremap <expr><C-h> neocomplcache#cancel_popup()"\<C-h>"
