@@ -1,6 +1,10 @@
 set nu
 set gfn=Menlo:h14
 set ts=2
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 if has ('gui_running')
     set transparency=15
