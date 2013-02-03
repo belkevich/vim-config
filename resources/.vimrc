@@ -8,14 +8,13 @@ set expandtab
 
 if has ('gui_running')
     set transparency=15
+    autocmd vimenter * if !argc() | NERDTree | endif
+    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 endif
 
 call pathogen#infect()
 syntax on
 filetype plugin indent on
-
-autocmd vimenter * if !argc() | NERDTree | endif
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 map <s-tab> <C-w><S-w>
 map <tab> <C-w><C-w>
