@@ -1,5 +1,5 @@
 set nu
-set gfn=Menlo:h14
+set gfn=Menlo:h12
 set ts=2
 set smartindent
 set tabstop=2
