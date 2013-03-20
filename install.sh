@@ -36,3 +36,5 @@ echo
 git clone git://github.com/tpope/vim-rails.git
 echo
 git clone git://github.com/tpope/vim-vividchalk.git
+echo
+git clone git://github.com/morhetz/gruvbox.git

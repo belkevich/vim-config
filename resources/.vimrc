@@ -5,23 +5,25 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
-if has ('gui_running')
-    set transparency=15
-    autocmd vimenter * if !argc() | NERDTree | endif
-    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-endif
+set background=dark
 
 call pathogen#infect()
 syntax on
 filetype plugin indent on
 
+if has ('gui_running')
+    set transparency=15
+    colorscheme gruvbox
+    autocmd vimenter * if !argc() | NERDTree | endif
+    autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+else
+    colorscheme vividchalk
+endif
+
 map <s-tab> <C-w><S-w>
 map <tab> <C-w><C-w>
 
 noremap <C-t> :CommandT<CR>
-
-:colorscheme vividchalk 
 
 let g:neocomplcache_enable_at_startup = 1
 let g:neocomplcache_enable_auto_select = 0

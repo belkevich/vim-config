@@ -12,7 +12,8 @@ VIM configuration script installs and configure next plugins:
 * [vim-less](https://github.com/groenewege/vim-less)
 * [vim-markdown](https://github.com/tpope/vim-markdown)
 * [vim-rails](https://github.com/tpope/vim-rails)
-* [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
+* [vim-vividchalk](https://github.com/tpope/vim-vividchalk) (terminal)
+* [gruvbox](https://github.com/morhetz/gruvbox) (GUI)
 
 ---
 # Installation
