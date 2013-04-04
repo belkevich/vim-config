@@ -13,7 +13,8 @@ VIM configuration script installs and configure next plugins:
 * [vim-markdown](https://github.com/tpope/vim-markdown)
 * [vim-rails](https://github.com/tpope/vim-rails)
 * [vim-vividchalk](https://github.com/tpope/vim-vividchalk) (terminal)
-* [gruvbox](https://github.com/morhetz/gruvbox) (GUI)
+* [sexy-railscasts-theme](https://github.com/oguzbilgic/sexy-railscasts-theme) (GUI)
+* [gruvbox](https://github.com/morhetz/gruvbox) (additional theme)
 
 ---
 # Installation

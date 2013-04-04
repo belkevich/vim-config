@@ -12,8 +12,8 @@ syntax on
 filetype plugin indent on
 
 if has ('gui_running')
-    set transparency=15
-    colorscheme gruvbox
+"    set transparency=15
+    colorscheme sexy-railscasts
     autocmd vimenter * if !argc() | NERDTree | endif
     autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 else
