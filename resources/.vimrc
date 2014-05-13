@@ -32,4 +32,5 @@ let g:neocomplcache_enable_camel_case_completion = 1
 let g:neocomplcache_enable_underbar_completion = 1
 let g:neocomplcache_min_syntax_length = 1
 let g:neocomplcache_disable_auto_complete = 1
+let g:neosnippet#disable_runtime_snippets = { "_": 1, }
 inoremap <expr><C-h> neocomplcache#cancel_popup()"\<C-h>"

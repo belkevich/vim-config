@@ -10,7 +10,7 @@ echo
 # install pathogne
 echo === Installing pathogen ===
 mkdir -p ~/.vim/autoload ~/.vim/bundle
-curl -Sso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+curl -LSso ~/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 echo
 # install plugins
 echo === Installing plugins ===
@@ -18,7 +18,7 @@ echo
 cd ~/.vim/bundle
 git clone git://github.com/wincent/Command-T.git
 cd Command-T
-/usr/bin/rake make
+rake make
 cd ..
 echo
 git clone git://github.com/Shougo/neocomplcache.git
