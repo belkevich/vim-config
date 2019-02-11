@@ -1,3 +1,4 @@
+#!/bin/bash
 # clean previous installation
 echo === Clean previous installation
 rm ~/.vimrc
@@ -27,13 +28,7 @@ git clone git://github.com/Shougo/neosnippet.git
 echo
 git clone git://github.com/scrooloose/nerdtree.git
 echo
-git clone git://github.com/tpope/vim-haml.git
-echo
-git clone git://github.com/groenewege/vim-less.git
-echo
 git clone git://github.com/tpope/vim-markdown.git
-echo
-git clone git://github.com/tpope/vim-rails.git
 echo
 git clone git://github.com/tpope/vim-vividchalk.git
 echo
