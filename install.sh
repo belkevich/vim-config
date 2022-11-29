@@ -17,21 +17,21 @@ echo
 echo === Installing plugins ===
 echo
 cd ~/.vim/bundle
-git clone git://github.com/wincent/Command-T.git
+git clone git@github.com:wincent/command-t.git
 cd Command-T
 rake make
 cd ..
 echo
-git clone git://github.com/Shougo/neocomplcache.git
+git clone git@github.com:Shougo/neocomplcache.git
 echo
-git clone git://github.com/Shougo/neosnippet.git
+git clone git@github.com:Shougo/neosnippet.git
 echo
-git clone git://github.com/scrooloose/nerdtree.git
+git clone git@github.com:scrooloose/nerdtree.git
 echo
-git clone git://github.com/tpope/vim-markdown.git
+git clone git@github.com:tpope/vim-markdown.git
 echo
-git clone git://github.com/tpope/vim-vividchalk.git
+git clone git@github.com:tpope/vim-vividchalk.git
 echo
-git clone git://github.com/oguzbilgic/sexy-railscasts-theme.git
+git clone git@github.com:oguzbilgic/sexy-railscasts-theme.git
 echo
-git clone git://github.com/morhetz/gruvbox.git
+git clone git@github.com:morhetz/gruvbox.git
